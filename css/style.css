@@ -26,7 +26,7 @@ a{
   margin: 0 auto;
 }
 
-.conteiner-general{height: 3250px;}
+
 
 .title{
   height: 500px;
@@ -154,11 +154,22 @@ margin-right: 40px;
 
 /* fine prima riga  */
 
+.wave{
+  height: 70px;
+  width: 100%;
+background-image: url(/img/wave.svg);
+opacity: 0.04;
+background-color: #F6F5F7;
+
+}
+
 .par{
   font-size: 1.6em;
   text-align: left;
   padding: 8px;
 }
+
+
 
 .tes{font-size: 1em;
   padding: 10px;
@@ -177,7 +188,6 @@ margin-right: 40px;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
-  margin-bottom: 70px;
 }
 
 
@@ -188,8 +198,20 @@ margin-right: 40px;
 }
 
 
+.wave-conteiner{
+  display: flex;
+  flex-direction: column-reverse;
+}
 
-
+.wave2{
+  height: 70px;
+  width: 100%;
+background-image: url(/img/wave.svg);
+transform: rotate(180deg);
+opacity: 0.04;
+background-color: #F6F5F7;
+margin-bottom: 70px;
+}
 
 /* END OF THE FIRST TWO SECTIONS */
 
@@ -212,13 +234,14 @@ margin-right: 40px;
   width: 25%; 
 }
 
+/* FINE TERZA RIGA  */
+
 .article4{
   width: 80%;
   margin: 0 auto;
 }
 
 .section-head{
-  height: 100px;
   width: 80%;
   padding: 8px;
   margin: 0 auto;
@@ -243,24 +266,25 @@ margin-right: 40px;
 .start{
   text-align: center;
   font-size: 23px;
-  margin-bottom: 50px;
   background-image: url(/img/stars.svg);
 
 }
 
 .mac{
-  margin-top: 20px;
+  margin-top: 26px;
   font-size: 20px;
   background-color: #8FA1E1;
   color: #FFFFFF;
   padding: 10px;
   border: none;
   border-radius: 20px;
+  margin-bottom: 30px;
+  
 }
 
 /* FINE MAIN  */
 
-.margin-out{
+ .margin-out{
   width: 100%;
   background-color:#23272A;
 }
