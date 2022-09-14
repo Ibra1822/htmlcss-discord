@@ -6,6 +6,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+  width: 100%;
+}
+
 li{
   margin:  10px;
 }
@@ -36,7 +40,7 @@ a{
   background-image: url(../img/jumbo.png);
   background-position: center;
   background-size: cover;
-  
+
   
 }
 
@@ -138,7 +142,6 @@ margin-right: 40px;
 .content1{
   margin: 0 auto;
   max-width: 1115px;
-
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -150,16 +153,12 @@ margin-right: 40px;
 
 .foto1{
   width: 60%;
-  min-width: 652px
 }
 
-.img1{
-  width: 90%;
-}
 
 .article1{
-  width: 30%;
-  padding: 10px;
+  width: 40%;
+  padding: 35px;
   min-width: 109px;
 
 }
@@ -169,10 +168,10 @@ margin-right: 40px;
 .wave{
   height: 70px;
   width: 100%;
-background-image: url(../img/wave.svg);
-opacity: 0.04;
-background-color: #F6F5F7;
-
+  background-image: url(../img/wave.svg);
+  opacity: 0.04;
+  background-color: #F6F5F7;
+ 
 }
 
 .par{
@@ -180,8 +179,6 @@ background-color: #F6F5F7;
   text-align: left;
   padding: 8px;
 }
-
-
 
 .tes{font-size: 1em;
   padding: 10px;
@@ -204,9 +201,13 @@ background-color: #F6F5F7;
 
 
 .article2{
-  padding: 20px;
-  width: 30%;
+  padding: 35px;
+  width: 40%;
 
+}
+
+.foto2{
+  width: 60%;
 }
 
 
@@ -229,7 +230,6 @@ margin-bottom: 70px;
 
 .content3{
   width: 80%;
-  max-width: 1115px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -239,11 +239,11 @@ margin-bottom: 70px;
 
 .foto3{
   width: 60%;
-  min-width: 652px
 }
 
 .article3{
-  width: 25%; 
+  width: 40%; 
+  padding: 35px;
 }
 
 /* FINE TERZA RIGA  */
@@ -251,6 +251,7 @@ margin-bottom: 70px;
 .article4{
   width: 80%;
   margin: 0 auto;
+  
 }
 
 .section-head{
